@@ -1,13 +1,13 @@
 body {
-    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
-    font-family: "Poppins", sans-serif;
+  background: linear-gradient(135deg, #f0f4ff, #c8d9ff);
+  font-family: "Segoe UI", sans-serif;
 }
 
-.animate-text {
-    animation: fadeIn 2s ease-in-out;
+.card {
+  border-radius: 20px;
+  background-color: #ffffff;
 }
 
-@keyframes fadeIn {
-    from { opacity: 0; transform: translateY(-10px); }
-    to { opacity: 1; transform: translateY(0); }
+h1 {
+  letter-spacing: 1px;
 }
