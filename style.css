@@ -1,7 +1,13 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+    font-family: "Poppins", sans-serif;
 }
 
-h1 {
-    letter-spacing: 2px;
+.animate-text {
+    animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
 }
